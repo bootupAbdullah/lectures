@@ -1,0 +1,92 @@
+body {
+    background-color: white;
+}
+
+#div-container-1 {
+    text-align: center;
+    background-color: #f2f2f2;
+    text-align: center;
+    height: 160px;
+    width: 850px;
+}
+
+#div-container-1 h1 {
+    padding-top: 15px;
+    color: black;
+    text-align: center;
+    font-family: "Verdana", Arial, Helvetica;
+    font-weight: 100;
+    font-size: 1em;   
+}
+
+#div-container-1 div{    
+    align-content: center;
+    display: inline-block;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 15px 15px 10px 10px
+} 
+
+#div-container-2 {
+    text-align: center;
+    background-color: #f2f2f2;
+    text-align: center;
+    height: 200px;
+    width: 850px;
+}
+
+#div-container-2 h1 {
+    padding-top: 30px;
+    color: black;
+    text-align: center;
+    font-family: "Verdana", Arial, Helvetica;
+    font-weight: 100;
+    font-size: 1em;   
+}
+
+#div-container-2 p {
+    padding-top: 10px;
+    color: black;
+    text-align: center;
+    font-family: "Verdana", Arial, Helvetica;
+    font-weight: 590;
+    font-size: 0.8em;   
+}
+
+#div-container-2 div{    
+    align-content: center;
+    display: inline-block;
+    background-color: black;
+    height: 30px;
+    width: 80px;
+    margin: 15px 15px 10px 10px
+}
+
+#div-container-3 {
+    text-align: center;
+    background-color: #f2f2f2;
+    text-align: center;
+    height: 200px;
+    width: 850px;
+}
+
+#div-container-3 p {
+    padding-top: 30px;
+    color: black;
+    text-align: center;
+    font-family: "Verdana", Arial, Helvetica;
+    font-weight: 590;
+    font-size: 0.8em;   
+}
+
+#div-container-3 div{    
+    align-content: center;
+    display: inline-block;
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 15px 15px 10px 10px
+} 
