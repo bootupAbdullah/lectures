@@ -68,17 +68,17 @@ body {
     text-align: center;
     background-color: #f2f2f2;
     text-align: center;
-    height: 200px;
+    height: 300px;
     width: 850px;
 }
 
 #div-container-3 p {
-    padding-top: 30px;
+    padding-top: 80px;
     color: black;
     text-align: center;
     font-family: "Verdana", Arial, Helvetica;
-    font-weight: 590;
-    font-size: 0.8em;   
+    font-weight: 550;
+    font-size: 0.9em;   
 }
 
 #div-container-3 div{    
