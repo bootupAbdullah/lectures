@@ -1,0 +1,70 @@
+body{
+    background-color: #f2f2f2;
+}
+
+#ad-container-1 {
+    background-color: #f2f2f2;
+    height: 500px;
+    width: 850px;
+}
+
+
+#ad-left-side{    
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    margin-left: 50px; 
+    /* background-color: #f2f2f2; */
+}
+
+#ad-left-side h1{    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 580;
+    font-size: 2rem;
+    padding-bottom: 5px;
+}
+
+#ad-left-side p{
+    font-size: 0.9em;
+    padding-bottom: 6px;
+}
+
+#ad-left-side button {
+
+    background-color:black;
+    color : white;
+    height: 40px;
+    width: 120px;
+    border-radius: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 0.6em;
+}
+
+#ad-right-side {
+    background-color: white;
+    height: 310px;
+    width: 400px;
+    position: absolute;
+    margin-left: 380px;
+    margin-bottom: 10px;
+    margin-top: 80px;
+    border: black solid .5px;
+}
+
+#shape-container div{
+    background-color: white;
+    align-content: center;
+    display: inline-block;
+    color: black;
+    height: 5px;
+    width: 5px;
+    border: black solid 1px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+
+/* 
