@@ -1,5 +1,8 @@
 const likeButtonElement = document.querySelector('#like-button');
 
+const handleLike = () => {
+    console.log('You clicked me!');
+}
 
 likeButtonElement.addEventListener('click', ()=> {
     console.log('You clicked me!');
@@ -20,4 +23,3 @@ commentButtonElement.addEventListener('click', ()=> {
 
 })
 
-console.dir(inputElement)

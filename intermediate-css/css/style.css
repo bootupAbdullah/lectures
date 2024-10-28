@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bungee Tint', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* 
+input[type="number"] { 
+    border: 3px solid yellow;
+    transition: border 1.8s;
+
+}
+
+input[type="number"]:hover {
+    border: 8px solid green;
+} */
+
+ul.top-level-list :hover {
+    cursor: pointer;
+}
+
+h3::first-letter {
+    font-size: 60px;
+}
+
+.top-level-list > li {
+    border: 1px solid orange;
+}
+
+div + div {
+    background-color: yellow;
+}
+
+
+input ~ input {
+    border: 1px solid blue;
+}

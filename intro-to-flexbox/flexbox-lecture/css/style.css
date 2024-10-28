@@ -1,0 +1,12 @@
+section {
+    background: yellow;
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: row;
+}
+
+div {
+    padding: 1em;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
