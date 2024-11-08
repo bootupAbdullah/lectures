@@ -3,27 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Contact Form</h1>
-    <form action="/the-form-submits-here" method="POST">
+  <h1>Contact Form</h1>
+  <form action="/the-form-submits-here" method="POST">
+    <fieldset aria-labelledby="contact-legend">
+      <legend id="contact-legend">Contact information</legend>
       <div>
-        <label for="name"> Name: </label>
+        <label for="name">Name:</label>
         <div><small>required</small></div>
-        <input type="text" id="name" />
+        <input type="text" id="name" required />
       </div>
       <div>
         <label for="email">Email:</label>
         <div><small>required</small></div>
-        <input type="email" id="email" />
+        <input type="email" id="email" required />
+      </div>
+    </fieldset>
+    <fieldset aria-labelledby="message-legend">
+      <legend id="message-legend">Message</legend>
+      <div>
+        <label for="category">I'm contacting about:</label>
+        <select id="category">
+          <option value="work">A job opportunity</option>
+          <option value="question">A question</option>
+          <option value="misc">Miscellaneous</option>
+        </select>
       </div>
       <div>
         <label for="message">Message:</label>
         <div><small>required</small></div>
-        <textarea id="message"></textarea>
+        <textarea id="message" required maxLength="100"></textarea>
       </div>
       <button type="submit">Submit</button>
-    </form>    
+    </fieldset>
+  </form>
+  <h2>Sign In Form</h2>
+  <form action="/sign-in" method="POST">
+    <div>
+      <label for="user">Username:</label>
+      <div><small>required, at least 6 characters</small></div>
+      <input 
+        type="text" 
+        id="user" 
+        minlength="6" 
+        required 
+      />
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <div><small>required, at least 6 characters</small></div>
+      <input 
+        type="password" 
+        id="password" 
+        minlength="6" 
+        required 
+      />
+    </div>
+    <button type="submit">Sign In</button>
+  </form>
 </body>
 </html>
