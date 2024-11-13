@@ -25,14 +25,24 @@ const fs = require('node:fs/promises');
 
 // console.log('Run this code as soon as possible');
 
-const readAnotherFile = async () => {
-    try {
-        const data = await fs.readFile("test3.txt", "utf8");
-        console.log(data)
-    } catch (error) {
-        console.log(error)
-    }
-}
+// const readAnotherFile = async () => {
+//     try {
+//         const data = await fs.readFile("test3.txt", "utf8");
+//         console.log(data)
+//     } catch (error) {
+//         console.log(error)
+//     }
+// }
 
 
-readAnotherFile()
+// readAnotherFile()
+
+
+console.log('First')
+
+setTimeout(() => {
+    console.log('Second')
+
+}, 1000)
+
+console.log('Third')
