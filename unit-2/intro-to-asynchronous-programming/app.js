@@ -11,19 +11,19 @@ const fs = require('node:fs/promises');
 //     })
 // })
 
-// const readDataFiles = async () => {
-//     const data = await fs.readFile('test.txt', 'utf8');
-//     console.log(data);
-//     const data2 = await fs.readFile('test2.txt', 'utf8');
-//     console.log(data2);
-//     const data3 = await fs.readFile('test3.txt', 'utf8');
-//     console.log(data3);
-// }
+const readDataFiles = async () => {
+    const data = await fs.readFile('test.txt', 'utf8');
+    console.log(data);
+    const data2 = await fs.readFile('test2.txt', 'utf8');
+    console.log(data2);
+    const data3 = await fs.readFile('test3.txt', 'utf8');
+    console.log(data3);
+}
 
 
-// readDataFiles();
+readDataFiles();
 
-// console.log('Run this code as soon as possible');
+console.log('Run this code as soon as possible');
 
 // const readAnotherFile = async () => {
 //     try {
@@ -38,11 +38,10 @@ const fs = require('node:fs/promises');
 // readAnotherFile()
 
 
-console.log('First')
+// // console.log('First')
 
-setTimeout(() => {
-    console.log('Second')
+// // setTimeout(() => {
+// //     console.log('Second')
+// // }, 1000)
 
-}, 1000)
-
-console.log('Third')
+// console.log('Third')

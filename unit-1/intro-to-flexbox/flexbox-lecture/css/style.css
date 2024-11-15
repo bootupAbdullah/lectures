@@ -1,8 +1,9 @@
 section {
     background: yellow;
     display: flex;
-    /* flex-direction: column; */
-    flex-direction: row;
+    flex-direction: column;
+    /* flex-direction: row; */
+    width: 50%;
 }
 
 div {
